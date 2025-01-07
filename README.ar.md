@@ -1,4 +1,4 @@
-<div dir="rt">
+<div style="direction: rtl; text-align: right;">
 
 **Genyleap White Paper (الإصدار المسودة 0.7)**
 
