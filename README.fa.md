@@ -4,6 +4,7 @@
 
 ---
 [English](README.md) | [Farsi - فارسی](README.fa.md) | [Chinese - 中文](README.zh.md) | [Japanese - 日本語](README.ja.md) | [Turkish - Türkçe](README.tr.md) | [Russian - Русский](README.ru.md) | [French - Français](README.fr.md) | [Spanish - Español](README.es.md) | [Korean - 한국어](README.ko.md) | [Azerbaijani - Azərbaycanca](README.az.md) | [Hindi - हिंदी](README.hi.md) | [Portuguese - Português](README.pt.md) | [Arabic - العربية](README.ar.md)
+
 # کاغد سفیدهٔ جنی‌لیپ
 
 **چکیده**
@@ -17,6 +18,10 @@
 در چشم‌انداز دیجیتال پرشتاب امروزی، کاربران با اکوسیستم‌های پراکنده، ابزارهای پیچیده و موانع نوآوری روبرو هستند. جنی‌لیپ این چالش‌ها را با ایجاد یک اکوسیستم یکپارچه از محصولات و ابزارهایی که فاصله بین فناوری‌های متمرکز و غیرمتمرکز را پر می‌کند، پاسخ می‌دهد. با مأموریت ارتقاء تجربه‌های دیجیتال، جنی‌لیپ ترکیبی از سادگی، کارایی و نوآوری را برای توانمندسازی افراد و جوامع ارائه می‌کند.
 
 ---
+
+</div>
+
+<div dir="rtl">
 
 ## اهداف
 
