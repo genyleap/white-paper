@@ -13,7 +13,7 @@ At Genyleap, our mission is to create a comprehensive suite of digital tools and
 
 ## Introduction
 
-In today\u2019s fast-paced digital landscape, users face fragmented ecosystems, complex tools, and barriers to innovation. Genyleap addresses these challenges by creating an integrated ecosystem of products and tools that bridge the gap between centralized and decentralized technologies. With a mission to elevate digital experiences, Genyleap combines simplicity, functionality, and innovation to empower individuals and communities.
+In today’s fast-paced digital landscape, users face fragmented ecosystems, complex tools, and barriers to innovation. Genyleap addresses these challenges by creating an integrated ecosystem of products and tools that bridge the gap between centralized and decentralized technologies. With a mission to elevate digital experiences, Genyleap combines simplicity, functionality, and innovation to empower individuals and communities.
 
 ---
 
