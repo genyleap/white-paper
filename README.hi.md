@@ -1,7 +1,8 @@
 **Genyleap White Paper (प्रारूप संस्करण 0.7)**
 
 ---
-[अंग्रेजी](README.md) | [फारसी - فارسی](README.fa.md) | [चीनी - 中文](README.zh.md) | [जापानी - 日本語](README.ja.md) | [तुर्की - Türkçe](README.tr.md) | [रूसी - Русский](README.ru.md) | [फ्रांसीसी - Français](README.fr.md) | [स्पैनिश - Español](README.es.md) | [कोरियाई - 한국어](README.ko.md) | [अज़रबैजानी - Azərbaycanca](README.az.md) | [हिंदी - हिंदी](README.hi.md) | [पुर्तगाली - Português](README.pt.md) | [अरबी - العربية](README.ar.md)
+[English](README.md) | [Farsi - فارسی](README.fa.md) | [Chinese - 中文](README.zh.md) | [Japanese - 日本語](README.ja.md) | [Turkish - Türkçe](README.tr.md) | [Russian - Русский](README.ru.md) | [French - Français](README.fr.md) | [Spanish - Español](README.es.md) | [Korean - 한국어](README.ko.md) | [Azerbaijani - Azərbaycanca](README.az.md) | [Hindi - हिंदी](README.hi.md) | [Portuguese - Português](README.pt.md) | [Arabic - العربية](README.ar.md) | [German - Deutsch](README.de.md)
+
 
 # Genyleap White Paper
 
