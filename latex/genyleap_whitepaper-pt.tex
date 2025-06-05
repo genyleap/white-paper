@@ -1,0 +1,296 @@
+\documentclass[a4paper,12pt,openany]{book}
+
+% Essential packages for Portuguese document
+\usepackage{polyglossia}
+\setmainlanguage{portuguese}
+\setotherlanguage{english}
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\newfontfamily\ipafont{Charis}
+\usepackage{geometry}
+\geometry{margin=2.0cm}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+% Spacing settings
+\onehalfspacing
+\setlength{\parskip}{0.2em}
+
+% Remove blank pages before chapters
+\let\cleardoublepage\clearpage
+
+\begin{document}
+
+% Página de capa
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1.5cm}
+        {\Huge \textbf{Livro Branco do Genyleap}} \\
+        \vspace{0.5cm}
+        {\Large Versão 1.0} \\
+        \vspace{0.5cm}
+        {\large Data de Publicação: Junho de 2025} \\
+        \vspace{1.5cm}
+        {\large Software de Alta Qualidade para uma Vida Melhor} \\
+    \end{center}
+    \vfill
+\end{titlepage}
+
+\chapter{Introdução}
+No Genyleap, imaginamos um futuro onde a tecnologia digital de alta qualidade, poderosa e eficiente sirva a todos. Desenvolvemos software simples e confiável que aprimora a vida diária, os negócios e a inovação. Por meio de tecnologias de código aberto e blockchain, tornamos ferramentas avançadas mais acessíveis, fortalecemos a transparência e respeitamos o meio ambiente com um design sustentável. O Genyleap oferece uma tecnologia que não é apenas eficiente, mas também inspiradora e acessível a todos.
+
+\chapter{Motor Cell: O Núcleo da Tecnologia Genyleap}
+
+O Motor Cell (\texttt{Cell}) é um sistema de software de código aberto avançado que forma o núcleo da fundação tecnológica do Genyleap. Construído de acordo com o padrão \texttt{C++23} ISO/IEC 14882:2024, ele oferece uma estrutura moderna para desenvolver aplicações de alta qualidade, seguras e de alto desempenho.
+
+Projetado para desenvolvedores que buscam controle total, o Cell permite construir qualquer coisa — de aplicações para desktop e mobile a serviços web, sites e dispositivos inteligentes \texttt{IoT} — sem depender de cadeias de ferramentas complexas ou caras. Ele proporciona um desenvolvimento econômico sem comprometer o desempenho ou a facilidade de manutenção.
+
+\textbf{Principais Características:}
+\begin{itemize}
+    \item \textbf{Compatibilidade entre Plataformas:} O Cell opera nativamente em desktops, dispositivos móveis, sistemas embarcados e \texttt{WebAssembly}, possibilitando verdadeira portabilidade entre dispositivos e sistemas operacionais.
+    \item \textbf{Arquitetura Modular e Leve:} Sua estrutura baseada em componentes permite máxima personalização e expansibilidade, mantendo-se leve e eficiente.
+    \item \textbf{Eficiência Energética:} Desenvolvido com sustentabilidade em mente, o Cell minimiza o consumo de energia, apoiando um futuro digital mais verde e consciente ambientalmente.
+    \item \textbf{Alto Desempenho e Segurança:} Otimizado para velocidade e segurança, o Cell oferece um comportamento de sistema confiável, ideal para aplicações modernas que exigem tanto responsividade quanto resiliência.
+    \item \textbf{Suporte à Globalização:} Com recursos multilíngues e suporte à internacionalização, o Cell está pronto para implantação global.
+\end{itemize}
+
+\footnote{O Motor Cell suporta diversas necessidades de projetos (multiuso), opera eficientemente em plataformas de desktops a \texttt{IoT} (multiplataforma) e é projetado para uso mínimo de energia (computação verde), reduzindo seu impacto ambiental enquanto entrega um desempenho robusto.}
+
+\chapter{Visão e Estratégias}
+
+O Genyleap redefine a tecnologia digital para empoderar desenvolvedores, acelerar a inovação e promover a sustentabilidade na indústria de software.
+
+\begin{itemize}
+    \item \textbf{Software de Alta Qualidade para Todos:} As ferramentas do Genyleap são acessíveis, intuitivas e eficientes, atendendo tanto a usuários comuns quanto a desenvolvedores profissionais com capacidades de alto desempenho.
+    \item \textbf{Empoderamento Empresarial:} Com ferramentas poderosas e consultoria especializada, o Genyleap ajuda startups e empresas a transformar ideias em soluções bem-sucedidas e escaláveis.
+    \item \textbf{Sustentabilidade Ambiental:} O Genyleap promove a computação verde ao projetar softwares de baixo consumo e alta eficiência, alinhando progresso tecnológico com responsabilidade ecológica.
+\end{itemize}
+
+\footnote{A blockchain garante registros de transações verificáveis e à prova de manipulação, fortalecendo a confiança digital e a integridade do sistema.}
+
+\chapter{Criptomoeda GENY (Token)}
+\begin{quote}
+Não criamos uma criptomoeda… criamos um gene! Isso é mais do que um token; é o DNA da interação e criação em \texttt{Web3}.
+\end{quote}
+O token GENY, oficialmente chamado \texttt{Genyleap}, é a moeda digital do Genyleap, transformando nosso ecossistema em uma rede dinâmica e descentralizada. O GENY é um “gene digital”, permitindo que indivíduos criem sua identidade e impacto em \texttt{Web3}.
+\begin{quote}
+Em cada bit, um gene… em cada gene, um mundo!
+\end{quote}
+
+\section*{Pronúncia Oficial}
+Em inglês, \textbf{GENY} é pronunciado como \textit{``Jenny''} ({\ipafont /ˈdʒe.ni/}). O nome deriva da fusão de “gene” e “por que”, propondo uma questão conceitual sobre a origem da criatividade na estrutura genética do mundo digital.
+
+\section*{Especificações Técnicas do GENY}
+\begin{itemize}
+    \item \textbf{Nome do Token/Criptomoeda}: \texttt{Genyleap}
+    \item \textbf{Símbolo}: \texttt{GENY}
+    \item \textbf{Padrão}: \texttt{ERC-20}
+    \item \textbf{Oferta Total}: 256,000,000 unidades
+    \item \textbfQueimável}: Sim (com restrições definidas pela equipe e \texttt{DAO})
+    \item \textbf{Recompra}: Sim
+    \item \textbf{Governança}: Via contratos inteligentes \texttt{Governor} no \texttt{DAO}
+\end{itemize}
+\vspace{-0.5em}
+\begin{quote}
+Libere seu gene! O futuro pertence àqueles que moldam seu gene digital através do pensamento e da interação.
+\end{quote}
+\newpage
+
+\section*{Características Principais e Público-Alvo do GENY}
+\subsection*{Características Principais}
+O GENY foi projetado para empoderar usuários, oferecendo as seguintes funcionalidades:
+\begin{itemize}
+    \item \textbf{Acesso a Serviços}: O GENY é a chave para usar os produtos do Genyleap, como aplicações baseadas no Motor Cell.
+    \item \textbf{Recompensas Criativas}: Os usuários ganham GENY por contribuições de alta qualidade (ex.: feedback, conteúdo ou software).
+    \item \textbf{Propriedade Digital}: O GENY garante a posse segura de ativos digitais (ex.: \texttt{NFTs}).
+    \item \textbf{Transações Rápidas}: Pagamentos instantâneos de baixo custo dentro do ecossistema.
+    \item \textbf{Governança Descentralizada}: Votação no \texttt{DAO} para decisões do projeto.
+    \item \textbf{Estrutura de Incentivos}: Recompensas baseadas na qualidade, não em atividades de spam.
+\end{itemize}
+\begin{quote}
+Participe e seu gene digital tomará forma!
+\end{quote}
+Por exemplo, um usuário pode ganhar 0,25 GENY por fornecer feedback, ou um artista pode vender um \texttt{NFT} e receber 10 GENY como recompensa.
+
+\subsection*{Público-Alvo do GENY}
+O GENY é destinado a todas as mentes positivas, não apenas a desenvolvedores ou investidores:
+\begin{itemize}
+    \item \textbf{Usuários Gerais}: Acesso aos aplicativos do Genyleap e recompensas por feedback.
+    \item \textbf{Desenvolvedores}: Construção de software inovador com o Motor Cell.
+    \item \textbf{Artistas}: Criação e venda de ativos digitais.
+    \item \textbf{Startups}: Transformação de ideias em produtos com o suporte do Genyleap.
+\end{itemize}
+Cada ideia ou contribuição no Genyleap é valiosa, e o GENY conecta você ao ecossistema.
+\newpage
+
+\section*{Tokenomics do GENY}
+Com uma oferta total de 256 milhões de unidades, o GENY foi projetado para garantir liquidez, crescimento e sustentabilidade. A distribuição de tokens é planejada para incentivar a participação.
+
+\begin{table}[h]
+\centering
+\caption{Distribuição de Tokens GENY (Parte 1)}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{Vesting} & \textbf{TGE (Milhões)} & \textbf{\%} & \textbf{Tokens (Milhões)} & \textbf{Categoria} & \textbf{Nº} \\
+\hline
+48 meses, 6 meses bloqueio & 0 & 12.5 & 32 & Equipe & 1 \\
+36 meses, 6 meses bloqueio & 0 & 6.3 & 16 & Investidores & 2 \\
+24 meses para 62 milhões & 2 & 25.0 & 64 & Ecossistema & 3 \\
+Por plano & 2 & 12.5 & 32 & Airdrop & 4 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Distribuição de Tokens GENY (Parte 2)}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{Vesting} & \textbf{TGE (Milhões)} & \textbf{\%} & \textbf{Tokens (Milhões)} & \textbf{Categoria} & \textbf{Nº} \\
+\hline
+Sem vesting & 32 & 12.5 & 32 & Liquidez & 5 \\
+24 meses para 28 milhões & 4 & 12.5 & 32 & Tesouraria e DAO & 6 \\
+24 meses para 28 milhões & 4 & 12.5 & 32 & GenyLab & 7 \\
+24 meses, 3 meses bloqueio & 0 & 6.3 & 16 & Fundo de Crescimento & 8 \\
+\hline
+-- & 44 & 100.0 & 256 & Total & -- \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Descrição das Categorias:}
+\begin{enumerate}
+    \item \textbf{Equipe}: Para gerenciamento e desenvolvimento do projeto.
+    \item \textbf{Investidores}: Para apoio financeiro inicial.
+    \item \textbf{Ecossistema}: Recompensas por contribuições a serviços.
+    \item \textbf{Airdrop}: Atração de novos usuários por meio de gorjetas em tokens.
+    \item \textbf{Liquidez}: Fornecimento de liquidez em exchanges.
+    \item \textbf{Tesouraria e DAO}: Apoio à tomada de decisão descentralizada e ao desenvolvimento futuro.
+    \item \textbf{GenyLab}: Financiamento de projetos inovadores e pesquisa.
+    \item \textbf{Fundo de Crescimento}: Financiamento de novos projetos e expansão.
+\end{enumerate}
+
+\subsection*{Detalhes Econômicos}
+\begin{itemize}
+    \item \textbf{Oferta Total}: 256 milhões de tokens GENY.
+    \item \textbf{Liberação Inicial (\texttt{TGE})}: 44 milhões de tokens (17.2\%).
+    \item \textbf{Recompra de Tokens}: 15\% dos lucros do projeto usados para recompra e transferência ao \texttt{buybackPool}.
+    \item \textbf{Queima de Tokens}: Até 2\% da oferta circulante queimada anualmente em cenários de crise (ex.: hacks ou preço muito baixo).
+\end{itemize}
+\newpage
+
+\section*{Unidades e Subunidades do GENY}
+No Genyleap, acreditamos que o verdadeiro valor está nas menores unidades, não em bilhões de tokens ineficazes. Nosso ecossistema é construído com base nos padrões \texttt{SI} e um sistema binário (potências de 2), garantindo precisão e transparência em todos os níveis. Essa estrutura inteligente oferece uma experiência simples e única, especialmente em sistemas de recompensas e microtransações.
+
+\begin{quote}
+Cada interação, um gene único! O GENY traz uma sensação incomparável de criação e valor.
+\end{quote}
+O GENY é a unidade principal de valor, usando prefixos binários como kibi (\texttt{Ki}) e mebi (\texttt{Mi}) para manter a precisão.
+
+\subsection*{Tabela de Unidades GENY}
+\begin{table}[h]
+\centering
+\caption{Subunidades GENY}
+\small
+\begin{tabular}{l c c r}
+\hline
+\textbf{Prefixo} & \textbf{Símbolo} & \textbf{Quantidade em GENY} & \textbf{Quantidade em \texttt{subunidade}} \\
+\hline
+Mebi (\texttt{MiGENY}) & \texttt{MiGENY} & 1,048,576 & 268,435,456 \\
+Kibi (\texttt{KiGENY}) & \texttt{KiGENY} & 1,024 & 262,144 \\
+-- & \texttt{GENY} & 1 & 256 \\
+Milli (\texttt{mGENY}) & \texttt{mGENY} & 0.001 & 0.000256 \\
+Micro (\texttt{\textmu GENY}) & \texttt{\textmu GENY} & 0.000001 & 0.000000256 \\
+Nano (\texttt{nGENY}) & \texttt{nGENY} & 0.000000001 & 0.000000000256 \\
+Pico (\texttt{pGENY}) & \texttt{pGENY} & 0.000000000001 & 0.000000000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Escalonamento Binário}
+Usamos conversões binárias (potências de 2, ex.: 1.024 em vez de 1.000) para garantir a precisão do cálculo digital. Por exemplo, 1 \texttt{KiGENY} = 1.024 GENY. Esse padrão evita erros de arredondamento em microtransações (ex.: \texttt{IoT} ou análise de dados).
+
+\subsection*{Aplicações de GENY e GEN}
+Em vez de bilhões de tokens, usamos unidades milli, micro e nano para interações pequenas, e kibi e mebi para projetos grandes. Essa abordagem simplifica o ecossistema Genyleap, especialmente em sistemas de gorjetas.
+\begin{itemize}
+    \item \textbf{Microtransações}: Sensores \texttt{IoT} transmitem dados com 0.000000001 GENY.
+    \item \textbf{Gorjetas Sociais}: 0.1 GENY para apoiar um post criativo.
+    \item \textbf{Assinaturas}: Ativação de uma assinatura premium com 10 GENY.
+    \item \textbf{Contribuições Grandes}: 2.000.000 GENY via \texttt{DAO} para projetos comunitários.
+\end{itemize}
+
+\textbf{Exemplos de Uso:}
+\begin{table}[h]
+\centering
+\caption{Exemplos de Uso de GENY e \texttt{GEN}}
+\small
+\begin{tabular}{l c r}
+\hline
+\textbf{Cenário} & \textbf{Equivalente em GENY} & \textbf{Quantidade em \texttt{GEN}} \\
+\hline
+Subvenção DAO & 2,000,000 & 512,000,000 \\
+Injeção de Liquidez & 500,000 & 128,000,000 \\
+Assinatura Premium & 10 & 2,560 \\
+Desbloqueio de Recurso & 1 & 256 \\
+Gorjeta Grande & 0.5 & 128 \\
+Gorjeta Pequena & 0.1 & 25.6 \\
+Chamada de Microsserviço & 0.01 & 2.56 \\
+Análise de Dados & 0.0001 & 0.0256 \\
+Sinal \texttt{IoT} & 0.000000001 & 0.000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Aplicações Atraentes}
+\begin{itemize}
+    \item \textbf{Microtransações \texttt{IoT}}: Sensores transmitem dados com 0.000000001 GENY.
+    \item \textbf{Gorjetas Criativas}: 0.1 GENY para apoiar conteúdo digital, como um post inspirador.
+    \item \textbf{Governança Dinâmica}: Votação no \texttt{DAO} com 1.000 GENY para projetos grandes.
+    \item \textbf{Microeconomia}: Empresas oferecem serviços digitais por 0.01 GENY.
+\end{itemize}
+
+\chapter{Público-Alvo do Genyleap}
+O Genyleap cria valor para:
+\begin{itemize}
+    \item \textbf{Usuários Gerais}: Ferramentas práticas para tarefas diárias.
+    \item \textbf{Desenvolvedores}: Plataforma para criar software inovador.
+    \item \textbf{Artistas}: Criação e venda de ativos digitais.
+    \item \textbf{Startups}: Apoio para transformar ideias em produtos.
+    \item \textbf{Organizações}: Soluções personalizadas para negócios.
+\end{itemize}
+
+\chapter{Visão do Genyleap}
+O Genyleap constrói um futuro onde o software digital é de alta qualidade, simples e sustentável. Com tecnologias de código aberto, blockchain e \texttt{DAO}, oferecemos acesso universal à tecnologia.
+
+\chapter{Convite à Colaboração}
+O Genyleap convida desenvolvedores, artistas, startups e investidores a se juntarem a essa jornada inovadora. Para mais informações, visite genyleap.com ou entre em contato conosco nas redes sociais.
+
+\section*{Endereços dos Contratos Inteligentes GENY}
+Os contratos inteligentes GENY estão implantados na blockchain Ethereum e utilizam a arquitetura \LRE{UUPS} para gerenciar transações, alocação de tokens e governança descentralizada do ecossistema Genyleap. O contrato \texttt{Multi-Sig}, com uma estrutura de três assinaturas, garante maior segurança e transparência. Verifique os endereços em \texttt{basescan.org} para detalhes:
+
+\begin{table}[h]
+\centering
+\caption*{Contratos Principais GENY}
+\small
+\begin{tabular}{c r}
+\hline
+\textbf{Nome do Contrato} & \textbf{Endereço do Contrato} \\
+\hline
+\texttt{GenyToken} & {\texttt{0x75d7a0e842a73c07847ee433c93d443dfea61038}} \\
+\texttt{GenyAllocation (Proxy)} & {\texttt{0xFeEfB5200Bfd8A836964134b9B0Fe68d0e4F9dea}} \\
+\texttt{Multi-Sig} & {\texttt{0x41EBc91077f37886CAc6aDEa67125A47c4d72930}} \\
+\texttt{Criador} & {\texttt{0x7960F1B90b257BfF29D5164D16bca4C8030b7f6D}} \\
+\hline
+\end{tabular}
+\end{table}
+
+\section*{Referências e Endereços}
+
+\begin{enumerate}
+    \item \textbf{Basescan}: \texttt{https://basescan.org/token/0x75d7a0e842a73c07847ee433c93d443dfea61038}
+    \item \textbf{Endereço de Origem}: \texttt{https://github.com/genyleap/geny-token}
+\end{enumerate}
+
+\end{document}

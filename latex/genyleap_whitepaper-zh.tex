@@ -1,0 +1,291 @@
+\documentclass[a4paper,12pt,openany]{book}
+
+% Essential packages for Chinese document
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Sans SC}
+\usepackage{geometry}
+\geometry{margin=2.0cm}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+% Spacing settings
+\onehalfspacing
+\setlength{\parskip}{0.2em}
+
+% Remove blank pages before chapters
+\let\cleardoublepage\clearpage
+
+\begin{document}
+
+% 封面
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1.5cm}
+        {\Huge \textbf{Genyleap 白皮书}} \\
+        \vspace{0.5cm}
+        {\Large 版本 1.0} \\
+        \vspace{0.5cm}
+        {\large 发布日期：2025年6月} \\
+        \vspace{1.5cm}
+        {\large 高质量软件，创造更美好生活} \\
+    \end{center}
+    \vfill
+\end{titlepage}
+
+\chapter{引言}
+在 Genyleap，我们展望一个未来，高品质、强大且高效的数字技术为所有人服务。我们设计简单可靠的软件，提升日常生活、商业和创新。通过开源技术和区块链，我们使高级工具更易获取，增强透明度，并通过可持续设计尊重环境。Genyleap 提供的不仅是高效的技术，更是激励人心且人人可用的技术。
+
+\chapter{Cell 引擎：Genyleap 技术的核心}
+
+Cell 引擎 (\texttt{Cell}) 是一个先进的开源软件系统，构成了 Genyleap 技术基础的核心。该引擎基于 \texttt{C++23} ISO/IEC 14882:2024 标准构建，为开发高质量、安全和高性能的应用提供了现代框架。
+
+Cell 专为寻求完全控制的开发者设计，赋予您构建任何应用的无限可能——从桌面和移动应用到网络服务、网站和智能 \texttt{IoT} 设备，无需依赖复杂或昂贵的工具链。它实现成本效益高的开发，同时不牺牲性能或可维护性。
+
+\textbf{主要特性：}
+\begin{itemize}
+    \item \textbf{跨平台兼容性：} Cell 在桌面、移动、嵌入式系统和 \texttt{WebAssembly} 上原生运行，实现设备和操作系统的真正可移植性。
+    \item \textbf{模块化轻量架构：} 其基于组件的结构允许最大程度的定制和扩展，同时保持轻量和高效。
+    \item \textbf{能效：} Cell 注重可持续性设计，最小化功耗，支持更绿色、更环保的数字未来。
+    \item \textbf{高性能与安全性：} Cell 从底层设计为速度和安全优化，提供可靠和安全的行为，适合需要响应性和弹性的现代应用。
+    \item \textbf{全球化支持：} 支持多语言和国际化特性，Cell 准备好全球部署。
+\end{itemize}
+
+\footnote{Cell 引擎支持多样化项目需求（多用途），在从桌面到 \texttt{IoT} 的平台上高效运行（跨平台），并设计为低能耗（绿色计算），减少环境足迹，同时提供卓越性能。}
+
+\chapter{愿景与战略}
+
+Genyleap 重新定义数字技术，赋能开发者，加速创新，推动软件行业的可持续发展。
+
+\begin{itemize}
+    \item \textbf{面向所有人的高质量软件：} Genyleap 的工具易用、直观且高效，服务于日常用户和专业开发者，提供强大的高性能能力。
+    \item \textbf{商业赋能：} 通过强大的工具和专业咨询，Genyleap 帮助初创企业和大型企业将创意转化为成功、可扩展的解决方案。
+    \item \textbf{环境可持续性：} Genyleap 通过设计低功耗、高效率软件，推动绿色计算，将技术进步与生态责任相结合。
+\end{itemize}
+
+\footnote{区块链确保可验证、防篡改的交易记录，增强数字信任和系统完整性。}
+
+\chapter{GENY 加密货币（代币）}
+\begin{quote}
+我们没有创造加密货币……我们创造了基因！这不仅仅是代币；它是 \texttt{Web3} 中交互与创造的 DNA。
+\end{quote}
+GENY 代币，官方名称为 \texttt{Genyleap}，是 Genyleap 的数字货币，将我们的生态系统转变为动态、去中心化的网络。GENY 是“数字基因”，使个人能够在 \texttt{Web3} 中创造自己的身份和影响力。
+\begin{quote}
+每一比特，一个基因……每一个基因，一个世界！
+\end{quote}
+
+\section*{官方发音}
+在英语中，\textbf{GENY} 发音为 \textit{``Jenny''} ({\ipafont /ˈdʒe.ni/})。该名称源于“基因”（gene）和“为什么”（why）的融合，提出一个关于数字世界基因结构中创造力起源的概念性问题。
+
+\section*{GENY 技术规格}
+\begin{itemize}
+    \item \textbf{代币/加密货币名称}: \texttt{Genyleap}
+    \item \textbf{符号}: \texttt{GENY}
+    \item \textbf{标准}: \texttt{ERC-20}
+    \item \textbf{总供应量}: 256,000,000 单位
+    \item \textbf{可销毁}: 是（受团队和 \texttt{DAO} 定义的限制）
+    \item \textbf{回购}: 是
+    \item \textbf{治理}: 通过 \texttt{DAO} 中的 \texttt{Governor} 智能合约
+\end{itemize}
+\vspace{-0.5em}
+\begin{quote}
+释放你的基因！未来属于那些通过思考和互动塑造数字基因的人。
+\end{quote}
+\newpage
+
+\section*{GENY 的关键特性与受众}
+\subsection*{关键特性}
+GENY 旨在赋能用户，提供以下特性：
+\begin{itemize}
+    \item \textbf{服务访问}: GENY 是使用 Genyleap 产品（如基于 Cell 引擎的应用）的关键。
+    \item \textbf{创意奖励}: 用户因高质量贡献（如反馈、内容或软件）获得 GENY 奖励。
+    \item \textbf{数字所有权}: GENY 确保数字资产（如 \texttt{NFT}）的安全所有权。
+    \item \textbf{快速交易}: 生态系统内的低成本、即时支付。
+    \item \textbf{去中心化治理}: 在 \texttt{DAO} 中投票参与项目决策。
+    \item \textbf{激励结构}: 奖励基于质量，而非垃圾活动。
+\end{itemize}
+\begin{quote}
+只要参与，你的数字基因就会成形！
+\end{quote}
+例如，用户可以通过提供反馈赚取 0.25 GENY，或艺术家可以通过出售 \texttt{NFT} 获得 10 GENY 奖励。
+
+\subsection*{GENY 的受众}
+GENY 面向所有积极思维的人，而不仅是开发者或投资者：
+\begin{itemize}
+    \item \textbf{普通用户}: 访问 Genyleap 应用并因反馈获得奖励。
+    \item \textbf{开发者}: 使用 Cell 引擎构建创新软件。
+    \item \textbf{艺术家}: 创作和销售数字资产。
+    \item \textbf{初创企业}: 在 Genyleap 支持下将创意转化为产品。
+\end{itemize}
+Genyleap 中的每一个创意或贡献都有价值，GENY 将您与生态系统连接起来。
+\newpage
+
+\section*{GENY 代币经济学}
+GENY 总供应量为 256 百万单位，旨在确保流动性、增长和可持续性。代币分配计划鼓励参与。下表详细说明了分配和归属时间表。
+
+\begin{table}[h]
+\centering
+\caption{GENY 代币分配（第一部分）}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{归属} & \textbf{TGE（百万）} & \textbf{百分比} & \textbf{代币数量（百万）} & \textbf{类别} & \textbf{编号} \\
+\hline
+48个月，6个月悬崖期 & 0 & 12.5 & 32 & 团队与核心 & 1 \\
+36个月，6个月悬崖期 & 0 & 6.3 & 16 & 投资者 & 2 \\
+24个月用于62百万 & 2 & 25.0 & 64 & 生态系统 & 3 \\
+按计划分配 & 2 & 12.5 & 32 & GenyDrop & 4 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{GENY 代币分配（第二部分）}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{归属} & \textbf{TGE（百万）} & \textbf{百分比} & \textbf{代币数量（百万）} & \textbf{类别} & \textbf{编号} \\
+\hline
+无归属 & 32 & 12.5 & 32 & 流动性 & 5 \\
+24个月用于28百万 & 4 & 12.5 & 32 & 国库和 \texttt{DAO} & 6 \\
+24个月用于28百万 & 4 & 12.5 & 32 & GenyLab & 7 \\
+24个月，3个月悬崖期 & 0 & 6.3 & 16 & 增长基金 & 8 \\
+\hline
+-- & 44 & 100.0 & 256 & 总计 & -- \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{类别描述：}
+\begin{enumerate}
+    \item \textbf{团队与核心}: 用于项目管理和开发。
+    \item \textbf{投资者}: 用于战略投资者的初始财务支持。
+    \item \textbf{生态系统}: 奖励为服务做出贡献的用户和开发者。
+    \item \textbf{空投}: 通过代币打赏吸引新用户。
+    \item \textbf{流动性}: 为交易所提供流动性，保障顺畅交易。
+    \item \textbf{国库和 \texttt{DAO}}: 支持去中心化决策和未来发展。
+    \item \textbf{GenyLab}: 资助创新项目和研究。
+    \item \textbf{增长基金}: 为新项目和生态系统扩展提供资金。
+\end{enumerate}
+
+\subsection*{经济细节}
+\begin{itemize}
+    \item \textbf{总供应量}: 256 百万 GENY 代币。
+    \item \textbf{初始发行 (\texttt{TGE})}: 44 百万代币 (17.2\%)。
+    \item \textbf{代币回购}: 项目利润的 15\% 用于回购并转移至 \texttt{buybackPool}。
+    \item \textbf{代币销毁}: 在危机情景下（例如黑客攻击或价格极低）每年最多销毁流通供应量的 2\%。
+\end{itemize}
+\newpage
+
+\section*{GENY 单位和子单位}
+在 Genyleap，我们相信真正的价值在于最小的单位，而不是数十亿无效代币。我们的生态系统基于国际单位标准 (\texttt{SI}) 和二进制系统（2 的幂），确保所有层面的精度和透明度。这种智能结构，尤其在奖励系统和微交易中，提供简单、准确且独特的体验，每一次交互都像一个独特的基因，承载价值、意义和创造。
+\begin{quote}
+每一次交互，一个独特的基因！GENY 带来无与伦比的创造和价值感。
+\end{quote}
+GENY 是主要价值单位，使用二进制前缀如 kibi (\texttt{Ki}) 和 mebi (\texttt{Mi}) 以保持跨所有尺度的计算精度。这个系统为从微交易到大型项目的交互提供了坚实的基础——透明、工程化且面向未来。
+
+\subsection*{GENY 单位表}
+\begin{table}[h]
+\centering
+\caption{GENY 子单位}
+\small
+\begin{tabular}{l c c r}
+\hline
+\textbf{前缀} & \textbf{符号} & \textbf{GENY 数量} & \textbf{\texttt{子单位} 数量} \\
+\hline
+Mebi (\texttt{MebiGENY}) & \texttt{MiGENY} & 1,048,576 & 268,435,456 \\
+Kibi (\texttt{KibiGENY}) & \texttt{KiGENY} & 1,024 & 262,144 \\
+-- & \texttt{GENY} & 1 & 256 \\
+Milli (\texttt{MilliGENY}) & \texttt{mGENY} & 0.001 & 0.000256 \\
+Micro (\texttt{MicroGENY}) & \texttt{\textmu GENY} & 0.000001 & 0.000000256 \\
+Nano (\texttt{NanoGENY}) & \texttt{nGENY} & 0.000000001 & 0.000000000256 \\
+Pico (\texttt{PicoGENY}) & \texttt{pGENY} & 0.000000000001 & 0.000000000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{二进制缩放}
+我们使用二进制转换（2 的幂，例如 1,024 而不是 1,000）以确保数字计算的准确性。例如，1 \texttt{KiGENY} 等于 1,024 GENY，而不是 1,000 GENY。这种标准在计算机科学中用于内存、处理和数据传输，防止微交易（如 \texttt{IoT} 传感器或数据分析）中的舍入误差。这种精度使 GENY 成为高级应用的理想选择。
+
+\subsection*{GENY 和 GEN 的应用}
+我们使用 milli、micro 和 nano 单位进行小型交互，使用 kibi 和 mebi 进行大型项目，而不是数十亿代币。这种方法增强了 Genyleap 生态系统的简单性和吸引力，特别是在打赏系统中，创造出令人愉悦且有意义的体验。
+\begin{itemize}
+    \item \textbf{微交易}: \texttt{IoT} 传感器以 0.000000001 GENY 传输环境数据。
+    \item \textbf{社交打赏}: 0.1 GENY 支持创意帖子。
+    \item \textbf{订阅}: 以 10 GENY 激活高级订阅。
+    \item \textbf{重大贡献}: 通过 \texttt{DAO} 为社区项目分配 2,000,000 GENY。
+\end{itemize}
+
+\textbf{使用示例：}
+\begin{table}[h]
+\centering
+\caption{GENY 和 \texttt{GEN} 的使用示例}
+\small
+\begin{tabular}{l c r}
+\hline
+\textbf{场景} & \textbf{GENY 等值} & \textbf{\texttt{GEN} 数量} \\
+\hline
+大型 \texttt{DAO} 资助 & 2,000,000 & 512,000,000 \\
+流动性注入 & 500,000 & 128,000,000 \\
+高级订阅 & 10 & 2,560 \\
+功能解锁 & 1 & 256 \\
+大额打赏 & 0.5 & 128 \\
+小额打赏 & 0.1 & 25.6 \\
+微服务调用 & 0.01 & 2.56 \\
+数据分析请求 & 0.0001 & 0.0256 \\
+\texttt{IoT} 传感器信号 & 0.000000001 & 0.000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{引人入胜的应用}
+\begin{itemize}
+    \item \textbf{\texttt{IoT} 微交易}: 传感器以 0.000000001 GENY 传输环境数据。
+    \item \textbf{创意打赏}: 0.1 GENY 支持数字内容，如一篇启发性帖子。
+    \item \textbf{动态治理}: 以 1,000 GENY 在 \texttt{DAO} 中为重大项目投票。
+    \item \textbf{微经济}: 企业以 0.01 GENY 提供数字服务。
+\end{itemize}
+
+\chapter{Genyleap 受众}
+Genyleap 为以下群体创造价值：
+\begin{itemize}
+    \item \textbf{普通用户}: 访问日常任务的实用工具。
+    \item \textbf{开发者}: 构建创新软件的平台。
+    \item \textbf{艺术家}: 使用专用代币创建和销售数字资产。
+    \item \textbf{初创企业}: 支持将创意转化为产品。
+    \item \textbf{组织}: 为企业提供定制解决方案。
+\end{itemize}
+
+\chapter{Genyleap 愿景}
+Genyleap 构建一个未来，数字软件高质量、简单且可持续。通过开源技术、区块链和 \texttt{DAO}，我们提供通用的技术访问，创造一个软件改善生活的世界。
+
+\chapter{合作邀请}
+Genyleap 邀请开发者、艺术家、初创企业和投资者加入我们的创新之旅。欲了解更多信息，请访问 genyleap.com 或通过社交媒体与我们联系。
+
+\section*{GENY 智能合约地址}
+GENY 智能合约部署在以太坊区块链上，并利用 \LRE{UUPS} 代理架构管理 Genyleap 生态系统的交易、代币分配和去中心化治理。\texttt{多重签名} 合约采用三签名结构，确保更高的安全性和透明度。要查看合约详情，请在 \texttt{basescan.org} 上检查地址：
+
+\begin{table}[h]
+\centering
+\caption*{主要 GENY 合约}
+\small
+\begin{tabular}{c r}
+\hline
+\textbf{合约名称} & \textbf{合约地址} \\
+\hline
+\texttt{GenyToken} & {\texttt{0x75d7a0e842a73c07847ee433c93d443dfea61038}} \\
+\texttt{GenyAllocation (Proxy)} & {\texttt{0xFeEfB5200Bfd8A836964134b9B0Fe68d0e4F9dea}} \\
+\texttt{多重签名} & {\texttt{0x41EBc91077f37886CAc6aDEa67125A47c4d72930}} \\
+\texttt{创建者} & {\texttt{0x7960F1B90b257BfF29D5164D16bca4C8030b7f6D}} \\
+\hline
+\end{tabular}
+\end{table}
+
+\section*{参考资料和地址}
+
+\begin{enumerate}
+    \item \textbf{Basescan}: \texttt{https://basescan.org/token/0x75d7a0e842a73c07847ee433c93d443dfea61038}
+    \item \textbf{源地址}: \texttt{https://github.com/genyleap/geny-token}
+\end{enumerate}
+
+\end{document}

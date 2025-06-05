@@ -1,0 +1,292 @@
+\documentclass[a4paper,12pt,openany]{book}
+
+% Essential packages for Korean document
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Sans KR}
+\usepackage{geometry}
+\geometry{margin=2.0cm}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+% Spacing settings
+\onehalfspacing
+\setlength{\parskip}{0.2em}
+
+% Remove blank pages before chapters
+\let\cleardoublepage\clearpage
+
+\begin{document}
+
+% 표지
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1.5cm}
+        {\Huge \textbf{Genyleap 백서}} \\
+        \vspace{0.5cm}
+        {\Large 버전 1.0} \\
+        \vspace{0.5cm}
+        {\large 발행일: 2025년 6월} \\
+        \vspace{1.5cm}
+        {\large 더 나은 삶을 위한 고품질 소프트웨어} \\
+    \end{center}
+    \vfill
+\end{titlepage}
+
+\chapter{서문}
+Genyleap에서는 고품질, 강력하고 효율적인 디지털 기술이 모두를 위해 봉사하는 미래를 상상합니다. 우리는 일상생활, 비즈니스, 혁신을 향상시키는 간단하고 신뢰할 수 있는 소프트웨어를 설계합니다. 오픈소스 기술과 블록체인을 통해 첨단 도구를 더 접근 가능하게 만들고, 투명성을 강화하며, 지속 가능한 설계로 환경을 존중합니다. Genyleap은 효율적일 뿐만 아니라 영감을 주고 누구나 접근 가능한 기술을 제공합니다.
+
+\chapter{Cell 엔진: Genyleap 기술의 핵심}
+
+Cell 엔진 (\texttt{Cell})은 Genyleap의 기술적 기반의 핵심을 이루는 고급 오픈소스 소프트웨어 시스템입니다. \texttt{C++23} ISO/IEC 14882:2024 표준에 따라 구축된 이 엔진은 고품질, 안전하고 고성능 애플리케이션을 개발하기 위한 현대적인 프레임워크를 제공합니다.
+
+완전한 제어를 원하는 개발자를 위해 설계된 Cell은 데스크톱 및 모바일 앱부터 웹 서비스, 웹사이트, 스마트 \texttt{IoT} 기기까지 복잡하거나 비용이 많이 드는 도구 체인에 의존하지 않고 모든 것을 구축할 수 있게 합니다. 성능이나 유지보수성을 희생하지 않으면서 비용 효율적인 개발을 가능하게 합니다.
+
+\textbf{주요 특징:}
+\begin{itemize}
+    \item \textbf{크로스 플랫폼 호환성:} Cell은 데스크톱, 모바일, 임베디드 시스템 및 \texttt{WebAssembly}에서 기본적으로 실행되어 기기와 운영 체제 간의 진정한 이식성을 제공합니다.
+    \item \textbf{모듈식 및 경량 아키텍처:} 컴포넌트 기반 구조로 최대한의 사용자 정의와 확장성을 제공하면서도 경량화와 효율성을 유지합니다.
+    \item \textbf{에너지 효율성:} 지속 가능성을 염두에 두고 설계된 Cell은 전력 소비를 최소화하여 더 친환경적인 디지털 미래를 지원합니다.
+    \item \textbf{고성능 및 보안:} 속도와 안전성을 위해 설계된 Cell은 반응성과 복원력을 요구하는 현대 애플리케이션에 이상적인 안정적이고 안전한 시스템 동작을 제공합니다.
+    \item \textbf{글로벌화 지원:} 다국어 기능과 국제화 지원으로 Cell은 글로벌 배포에 적합합니다.
+\end{itemize}
+
+\footnote{Cell 엔진은 다양한 프로젝트 요구를 지원하며(다목적), 데스크톱에서 \texttt{IoT}까지 효율적으로 실행(크로스 플랫폼)되고, 최소 에너지 사용(그린 컴퓨팅)을 위해 설계되어 환경 영향을 줄이면서도 강력한 성능을 제공합니다.}
+
+\chapter{비전과 전략}
+
+Genyleap은 개발자를 강화하고, 혁신을 가속화하며, 소프트웨어 산업의 지속 가능성을 촉진하기 위해 디지털 기술을 재정의합니다.
+
+\begin{itemize}
+    \item \textbf{모두를 위한 고품질 소프트웨어:} Genyleap의 도구는 접근 가능하고 직관적이며 효율적이며, 일상 사용자와 전문 개발자 모두에게 강력한 고성능 기능을 제공합니다.
+    \item \textbf{비즈니스 역량 강화:} 강력한 도구와 전문 컨설팅을 통해 Genyleap은 스타트업과 기업이 아이디어를 성공적이고 확장 가능한 솔루션으로 전환하도록 돕습니다.
+    \item \textbf{환경 지속 가능성:} Genyleap은 저전력, 고효율 소프트웨어를 설계하여 그린 컴퓨팅을 촉진하고 기술 발전과 생태적 책임을 조화시킵니다.
+\end{itemize}
+
+\footnote{블록체인은 검증 가능하고 변조 방지된 트랜잭션 기록을 보장하여 디지털 신뢰와 시스템 무결성을 강화합니다.}
+
+\chapter{GENY 암호화폐 (토큰)}
+\begin{quote}
+우리는 암호화폐를 만든 것이 아니라… 유전자를 만들었습니다! 이것은 단순한 토큰이 아니라 \texttt{Web3}에서 상호작용과 창조의 DNA입니다.
+\end{quote}
+GENY 토큰, 공식 명칭 \texttt{Genyleap}은 Genyleap의 디지털 통화로, 우리 에코시스템을 역동적이고 탈중앙화된 네트워크로 변환합니다. GENY는 "디지털 유전자"로, 개인이 \texttt{Web3}에서 자신의 정체성과 영향을 창출할 수 있게 합니다.
+\begin{quote}
+모든 비트에 유전자가… 모든 유전자에 세계가!
+\end{quote}
+
+\section*{공식 발음}
+영어로 \textbf{GENY}는 \textit{``Jenny''} ({\ipafont /ˈdʒe.ni/})로 발음됩니다. 이름은 "유전자"와 "왜"의 융합에서 유래하며, 디지털 세계의 유전자 구조에서 창의성의 기원에 대한 개념적 질문을 제기합니다.
+
+\section*{GENY 기술 사양}
+\begin{itemize}
+    \item \textbf{토큰/암호화폐 이름}: \texttt{Genyleap}
+    \item \textbf{기호}: \texttt{GENY}
+    \item \textbf{표준}: \texttt{ERC-20}
+    \item \textbf{총 공급량}: 256,000,000 유닛
+    \item \textbf{소각 가능}: 예 (팀과 \texttt{DAO}가 정의한 제한 있음)
+    \item \textbf{바이백}: 예
+    \item \textbf{거버넌스}: \texttt{DAO} 내 \texttt{Governor} 스마트 계약을 통해
+\end{itemize}
+\vspace{-0.5em}
+\begin{quote}
+당신의 유전자를 풀어라! 미래는 사고와 상호작용으로 디지털 유전자를 형성하는 자들의 것입니다.
+\end{quote}
+\newpage
+
+\section*{GENY의 주요 특징 및 대상}
+\subsection*{주요 특징}
+GENY는 사용자를 강화하기 위해 설계되었으며 다음 기능을 제공합니다:
+\begin{itemize}
+    \item \textbf{서비스 접근}: GENY는 Cell 엔진 기반 애플리케이션과 같은 Genyleap 제품 사용의 열쇠입니다.
+    \item \textbf{창의적 보상}: 사용자는 고품질 기여(피드백, 콘텐츠, 소프트웨어 등)에 대해 GENY를 획득합니다.
+    \item \textbf{디지털 소유권}: GENY는 \texttt{NFT}와 같은 디지털 자산의 안전한 소유권을 보장합니다.
+    \item \textbf{빠른 거래}: 에코시스템 내에서 저비용, 즉시 결제.
+    \item \textbf{탈중앙화 거버넌스}: 프로젝트 결정에 대한 \texttt{DAO} 내 투표.
+    \item \textbf{인센티브 구조}: 스팸 활동이 아닌 품질에 기반한 보상.
+\end{itemize}
+\begin{quote}
+참여하기만 하면 디지털 유전자가 형성됩니다!
+\end{quote}
+예를 들어, 사용자는 피드백을 제공하여 0.25 GENY를 획득하거나, 아티스트는 \texttt{NFT}를 판매하여 10 GENY 보상을 받을 수 있습니다.
+
+\subsection*{GENY의 대상}
+GENY는 개발자나 투자자뿐만 아니라 모든 긍정적인 마인드를 가진 사람들을 위한 것입니다:
+\begin{itemize}
+    \item \textbf{일반 사용자}: Genyleap 앱에 접근하고 피드백에 대한 보상을 받습니다.
+    \item \textbf{개발자}: Cell 엔진으로 혁신적인 소프트웨어를 구축합니다.
+    \item \textbf{아티스트}: 디지털 자산을 생성하고 판매합니다.
+    \item \textbf{스타트업}: Genyleap 지원으로 아이디어를 제품으로 변환합니다.
+\end{itemize}
+Genyleap에서 모든 아이디어와 기여는 소중하며, GENY가 당신을 에코시스템에 연결합니다.
+\newpage
+
+\section*{GENY 토큰 경제학}
+GENY는 총 공급량 256백만 유닛으로 유동성, 성장, 지속 가능성을 보장하도록 설계되었습니다. 토큰 분배는 참여를 장려하기 위해 계획되었습니다.
+
+\begin{table}[h]
+\centering
+\caption{GENY 토큰 분배 (1부)}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{베스팅} & \textbf{TGE (백만)} & \textbf{\%} & \textbf{토큰 수 (백만)} & \textbf{카테고리} & \textbf{№} \\
+\hline
+48개월, 6개월 클리프 & 0 & 12.5 & 32 & 팀 & 1 \\
+36개월, 6개월 클리프 & 0 & 6.3 & 16 & 투자자 & 2 \\
+24개월 동안 62백만 & 2 & 25.0 & 64 & 에코시스템 & 3 \\
+계획에 따라 & 2 & 12.5 & 32 & 에어드롭 & 4 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{GENY 토큰 분배 (2부)}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{베스팅} & \textbf{TGE (백만)} & \textbf{\%} & \textbf{토큰 수 (백만)} & \textbf{카테고리} & \textbf{№} \\
+\hline
+베스팅 없음 & 32 & 12.5 & 32 & 유동성 & 5 \\
+24개월 동안 28백만 & 4 & 12.5 & 32 & 트레저리 및 DAO & 6 \\
+24개월 동안 28백만 & 4 & 12.5 & 32 & GenyLab & 7 \\
+24개월, 3개월 클리프 & 0 & 6.3 & 16 & 성장 펀드 & 8 \\
+\hline
+-- & 44 & 100.0 & 256 & 총계 & -- \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{카테고리 설명:}
+\begin{enumerate}
+    \item \textbf{팀}: 프로젝트 관리 및 개발.
+    \item \textbf{투자자}: 초기 재정 지원.
+    \item \textbf{에코시스템}: 서비스 기여에 대한 보상.
+    \item \textbf{에어드롭}: 토큰 팁을 통해 신규 사용자 유도.
+    \item \textbf{유동성}: 거래소에서 유동성 제공.
+    \item \textbf{트레저리 및 DAO}: 탈중앙화 의사결정 및 개발.
+    \item \textbf{GenyLab}: 혁신 프로젝트 및 연구 자금.
+    \item \textbf{성장 펀드}: 신규 프로젝트 및 확장 자금.
+\end{enumerate}
+
+\subsection*{경제 세부사항}
+\begin{itemize}
+    \item \textbf{총 공급량}: 256백만 GENY 토큰.
+    \item \textbf{초기 배포 (\texttt{TGE})}: 44백만 토큰 (17.2\%).
+    \item \textbf{토큰 바이백}: 프로젝트 수익의 15\%를 \texttt{buybackPool}로 사용.
+    \item \textbf{토큰 소각}: 위기 상황(해킹 또는 매우 낮은 가격)에서 연간 최대 2\% 소각.
+\end{itemize}
+\newpage
+
+\section*{GENY 유닛 및 서브유닛}
+Genyleap에서는 진정한 가치는 수십억 개의 비효율적인 토큰이 아니라 가장 작은 유닛에 있다고 믿습니다. 우리 에코시스템은 \texttt{SI} 표준과 2의 거듭제곱 시스템에 기반하여 모든 수준에서 정밀도와 투명성을 보장합니다. 이 구조는 특히 보상 시스템과 마이크로 트랜잭션에서 단순하고 독특한 경험을 제공합니다.
+
+\begin{quote}
+모든 상호작용이 고유한 유전자입니다! GENY는 창조와 가치의 느낌을 제공합니다.
+\end{quote}
+GENY는 주요 가치 유닛으로, kibi (\texttt{Ki})와 mebi (\texttt{Mi})와 같은 2진 접두사를 사용하여 정밀도를 유지합니다.
+
+\subsection*{GENY 유닛 표}
+\begin{table}[h]
+\centering
+\caption{GENY 서브유닛}
+\small
+\begin{tabular}{l c c r}
+\hline
+\textbf{접두사} & \textbf{기호} & \textbf{GENY 양} & \textbf{\texttt{서브유닛} 양} \\
+\hline
+Mebi (\texttt{MiGENY}) & \texttt{MiGENY} & 1,048,576 & 268,435,456 \\
+Kibi (\texttt{KiGENY}) & \texttt{KiGENY} & 1,024 & 262,144 \\
+-- & \texttt{GENY} & 1 & 256 \\
+Milli (\texttt{mGENY}) & \texttt{mGENY} & 0.001 & 0.000256 \\
+Micro (\texttt{\textmu GENY}) & \texttt{\textmu GENY} & 0.000001 & 0.000000256 \\
+Nano (\texttt{nGENY}) & \texttt{nGENY} & 0.000000001 & 0.000000000256 \\
+Pico (\texttt{pGENY}) & \texttt{pGENY} & 0.000000000001 & 0.000000000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{2의 거듭제곱 스케일링}
+디지털 계산의 정확성을 보장하기 위해 2의 거듭제곱 변환(예: 1,000 대신 1,024)을 사용합니다. 예를 들어, 1 \texttt{KiGENY} = 1,024 GENY. 이 표준은 마이크로 트랜잭션(예: \texttt{IoT} 또는 데이터 분석)에서 반올림 오류를 방지합니다.
+
+\subsection*{GENY 및 GEN의 응용}
+수십억 토큰 대신 mili, micro, nano 유닛을 작은 상호작용에, kibi, mebi를 큰 프로젝트에 사용합니다. 이는 Genyleap 에코시스템을 간소화하며, 특히 팁 시스템에서 즐거운 경험을 제공합니다.
+\begin{itemize}
+    \item \textbf{마이크로 트랜잭션}: \texttt{IoT} 센서가 0.000000001 GENY로 데이터를 전송.
+    \item \textbf{소셜 팁}: 창의적 게시물 지원을 위해 0.1 GENY.
+    \item \textbf{구독}: 10 GENY로 프리미엄 구독 활성화.
+    \item \textbf{대규모 기여}: \texttt{DAO}를 통해 커뮤니티 프로젝트에 2,000,000 GENY 할당.
+\end{itemize}
+
+\textbf{사용 예:}
+\begin{table}[h]
+\centering
+\caption{GENY 및 \texttt{GEN} 사용 예}
+\small
+\begin{tabular}{l c r}
+\hline
+\textbf{시나리오} & \textbf{GENY 등가} & \textbf{\texttt{GEN} 양} \\
+\hline
+DAO 지원금 & 2,000,000 & 512,000,000 \\
+유동성 주입 & 500,000 & 128,000,000 \\
+프리미엄 구독 & 10 & 2,560 \\
+기능 해제 & 1 & 256 \\
+큰 팁 & 0.5 & 128 \\
+작은 팁 & 0.1 & 25.6 \\
+마이크로 서비스 & 0.01 & 2.56 \\
+데이터 분석 & 0.0001 & 0.0256 \\
+\texttt{IoT} 신호 & 0.000000001 & 0.000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{매력적인 응용}
+\begin{itemize}
+    \item \textbf{\texttt{IoT} 마이크로 트랜잭션}: 센서가 0.000000001 GENY로 데이터 전송.
+    \item \textbf{창의적 팁}: 영감을 주는 게시물에 0.1 GENY.
+    \item \textbf{거버넌스}: \texttt{DAO}에서 1,000 GENY로 투표.
+    \item \textbf{마이크로 경제}: 0.01 GENY로 디지털 서비스 제공.
+\end{itemize}
+
+\chapter{Genyleap 대상}
+Genyleap은 다음 그룹에 가치를 창출합니다:
+\begin{itemize}
+    \item \textbf{일반 사용자}: 일상 작업을 위한 도구.
+    \item \textbf{개발자}: 혁신적 소프트웨어 제작 플랫폼.
+    \item \textbf{아티스트}: 디지털 자산 생성 및 판매.
+    \item \textbf{스타트업}: 아이디어를 제품으로 전환 지원.
+    \item \textbf{조직}: 비즈니스 맞춤 솔루션.
+\end{itemize}
+
+\chapter{Genyleap 비전}
+Genyleap은 고품질, 간단하고 지속 가능한 디지털 소프트웨어의 미래를 구축합니다. 오픈소스, 블록체인, \texttt{DAO}를 통해 기술에 보편적 접근을 제공합니다.
+
+\chapter{협력 초대}
+Genyleap은 개발자, 아티스트, 스타트업, 투자자를 이 혁신적 여정에 초대합니다. 자세한 내용은 genyleap.com 또는 소셜 미디어를 통해 확인하세요.
+
+\section*{GENY 스마트 계약 주소}
+GENY 스마트 계약은 Ethereum 블록체인에 배포되며 \LRE{UUPS} 아키텍처를 사용하여 트랜잭션, 토큰 할당, Genyleap 에코시스템의 탈중앙화 거버넌스를 관리합니다. \texttt{멀티시그} 계약은 3서명 구조로 보안성과 투명성을 보장합니다. 세부사항은 \texttt{basescan.org}에서 확인하세요:
+
+\begin{table}[h]
+\centering
+\caption*{주요 GENY 계약}
+\small
+\begin{tabular}{c r}
+\hline
+\textbf{계약 이름} & \textbf{계약 주소} \\
+\hline
+\texttt{GenyToken} & {\texttt{0x75d7a0e842a73c07847ee433c93d443dfea61038}} \\
+\texttt{GenyAllocation (Proxy)} & {\texttt{0xFeEfB5200Bfd8A836964134b9B0Fe68d0e4F9dea}} \\
+\texttt{멀티시그} & {\texttt{0x41EBc91077f37886CAc6aDEa67125A47c4d72930}} \\
+\texttt{창작자} & {\texttt{0x7960F1B90b257BfF29D5164D16bca4C8030b7f6D}} \\
+\hline
+\end{tabular}
+\end{table}
+
+\section*{참조 및 주소}
+
+\begin{enumerate}
+    \item \textbf{Basescan}: \texttt{https://basescan.org/token/0x75d7a0e842a73c07847ee433c93d443dfea61038}
+    \item \textbf{소스 주소}: \texttt{https://github.com/genyleap/geny-token}
+\end{enumerate}
+
+\end{document}

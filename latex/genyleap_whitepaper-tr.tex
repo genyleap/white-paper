@@ -1,0 +1,296 @@
+\documentclass[a4paper,12pt,openany]{book}
+
+% Essential packages for Turkish document
+\usepackage{polyglossia}
+\setmainlanguage{turkish}
+\setotherlanguage{english}
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\newfontfamily\ipafont{Charis}
+\usepackage{geometry}
+\geometry{margin=2.0cm}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+% Spacing settings
+\onehalfspacing
+\setlength{\parskip}{0.2em}
+
+% Remove blank pages before chapters
+\let\cleardoublepage\clearpage
+
+\begin{document}
+
+% Kapak Sayfası
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1.5cm}
+        {\Huge \textbf{Genyleap Beyaz Kitap}} \\
+        \vspace{0.5cm}
+        {\Large Sürüm 1.0} \\
+        \vspace{0.5cm}
+        {\large Yayın Tarihi: Haziran 2025} \\
+        \vspace{1.5cm}
+        {\large Daha İyi Bir Yaşam için Yüksek Kaliteli Yazılım} \\
+    \end{center}
+    \vfill
+\end{titlepage}
+
+\chapter{Giriş}
+Genyleap olarak, yüksek kaliteli, güçlü ve verimli dijital teknolojinin herkese hizmet ettiği bir gelecek hayal ediyoruz. Günlük yaşamı, iş dünyasını ve yenilikleri geliştiren basit ve güvenilir yazılımlar tasarlıyoruz. Açık kaynak teknolojiler ve blok zinciri sayesinde gelişmiş araçları daha erişilebilir hale getiriyor, şeffaflığı artırıyor ve sürdürülebilir tasarımla çevreye saygı duyuyoruz. Genyleap, yalnızca verimli değil, aynı zamanda ilham verici ve herkes için erişilebilir teknolojiler sunar.
+
+\chapter{Cell Motoru: Genyleap Teknolojisinin Çekirdeği}
+
+Cell Motoru (\texttt{Cell}), Genyleap'in teknolojik temelini oluşturan gelişmiş bir açık kaynak yazılım sistemidir. \texttt{C++23} ISO/IEC 14882:2024 standardına göre geliştirilen bu motor, yüksek kaliteli, güvenli ve yüksek performanslı uygulamalar oluşturmak için modern bir çerçeve sunar.
+
+Tam kontrol arayan geliştiriciler için tasarlanan Cell, masaüstü ve mobil uygulamalardan web servislerine, web sitelerine ve akıllı \texttt{IoT} cihazlarına kadar her şeyi oluşturmanızı sağlar — karmaşık veya pahalı araç zincirlerine bağımlı olmadan. Performans veya bakım kolaylığından ödün vermeden maliyet etkin geliştirme sunar.
+
+\textbf{Temel Özellikler:}
+\begin{itemize}
+    \item \textbf{Çapraz Platform Uyumluluğu:} Cell, masaüstü, mobil, gömülü sistemler ve \texttt{WebAssembly} üzerinde doğal olarak çalışır, cihazlar ve işletim sistemleri arasında gerçek taşınabilirlik sağlar.
+    \item \textbf{Modüler ve Hafif Yapı:} Bileşen tabanlı yapısı, maksimum özelleştirme ve genişletilebilirlik sunarken hafif ve verimli kalır.
+    \item \textbf{Enerji Verimliliği:} Sürdürülebilirlik göz önünde bulundurularak tasarlanan Cell, güç tüketimini en aza indirerek daha çevreci bir dijital gelecek destekler.
+    \item \textbf{Yüksek Performans ve Güvenlik:} Hız ve güvenlik için tasarlanan Cell, hem yanıt verme hem de dayanıklılık gerektiren modern uygulamalar için optimize edilmiş ve güvenilir bir sistem davranışı sunar.
+    \item \textbf{Küreselleşme Desteği:} Çok dilli özellikler ve uluslararasılaşma desteği ile Cell, küresel dağıtıma hazırdır.
+\end{itemize}
+
+\footnote{Cell Motoru, çeşitli proje ihtiyaçlarını destekler (çok amaçlı), masaüstünden \texttt{IoT}'ye kadar platformlarda verimli çalışır (çapraz platform) ve minimum enerji kullanımı için tasarlanmıştır (yeşil bilişim), çevresel ayak izini azaltırken yüksek performans sunar.}
+
+\chapter{Vizyon ve Stratejiler}
+
+Genyleap, geliştiricileri güçlendirmek, yeniliği hızlandırmak ve yazılım sektöründe sürdürülebilirliği teşvik etmek için dijital teknolojiyi yeniden tanımlıyor.
+
+\begin{itemize}
+    \item \textbf{Herkes için Yüksek Kaliteli Yazılım:} Genyleap’in araçları erişilebilir, sezgisel ve verimlidir — hem günlük kullanıcılara hem de profesyonel geliştiricilere yüksek performans sağlar.
+    \item \textbf{İş Güçlendirme:} Güçlü araçlar ve uzman danışmanlık ile Genyleap, startup’lar ve işletmelerin fikirlerini başarılı, ölçeklenebilir çözümlere dönüştürmesine yardımcı olur.
+    \item \textbf{Çevresel Sürdürülebilirlik:} Genyleap, düşük güçlü, yüksek verimli yazılımlar tasarlayarak yeşil bilişimi teşvik eder ve teknolojik ilerlemeyi ekolojik sorumlulukla birleştirir.
+\end{itemize}
+
+\footnote{Blok zinciri, doğrulanabilir ve değiştirilemez işlem kayıtları sağlayarak dijital güveni ve sistem bütünlüğünü güçlendirir.}
+
+\chapter{GENY Kripto Para (Token)}
+\begin{quote}
+Biz bir kripto para yaratmadık... bir gen yarattık! Bu sadece bir token değil; \texttt{Web3}'te etkileşim ve yaratıcılığın DNA'sı.
+\end{quote}
+GENY token’ı, resmi adıyla \texttt{Genyleap}, Genyleap’in dijital para birimidir ve ekosistemimizi dinamik, merkeziyetsiz bir ağa dönüştürür. GENY, bireylerin \texttt{Web3}'te kimlik ve etki yaratmasını sağlayan bir “dijital gen”dir.
+\begin{quote}
+Her bit’te bir gen... her gen’de bir dünya!
+\end{quote}
+
+\section*{Resmi Telaffuz}
+İngilizce’de \textbf{GENY}, \textit{``Jenny''} ({\ipafont /ˈdʒe.ni/}) olarak telaffuz edilir. İsim, “gen” ve “neden” kelimelerinin birleşiminden türemiştir ve dijital dünyanın genetik yapısında yaratıcılığın kökeni hakkında kavramsal bir soru ortaya koyar.
+
+\section*{GENY Teknik Özellikleri}
+\begin{itemize}
+    \item \textbf{Token/Kripto Para Adı}: \texttt{Genyleap}
+    \item \textbf{Sembol}: \texttt{GENY}
+    \item \textbf{Standart}: \texttt{ERC-20}
+    \item \textbf{Toplam Arz}: 256,000,000 birim
+    \item \textbf{Yakılabilir}: Evet (ekip ve \texttt{DAO} tarafından belirlenen kısıtlamalarla)
+    \item \textbf{Geri Alım}: Evet
+    \item \textbf{Yönetişim}: \texttt{DAO} içinde \texttt{Governor} akıllı sözleşmeleri aracılığıyla
+\end{itemize}
+\vspace{-0.5em}
+\begin{quote}
+Genini serbest bırak! Gelecek, dijital genini düşünce ve etkileşimle şekillendirenlere aittir.
+\end{quote}
+\newpage
+
+\section*{GENY’nin Temel Özellikleri ve Hedef Kitlesi}
+\subsection*{Temel Özellikler}
+GENY, kullanıcıları güçlendirmek için tasarlanmıştır ve şu özellikleri sunar:
+\begin{itemize}
+    \item \textbf{Servis Erişimi}: GENY, Cell Motoru tabanlı uygulamalar gibi Genyleap ürünlerini kullanmanın anahtarıdır.
+    \item \textbf{Yaratıcı Ödüller}: Kullanıcılar, yüksek kaliteli katkılar (ör. geri bildirim, içerik veya yazılım) için GENY kazanır.
+    \item \textbf{Dijital Sahiplik}: GENY, \texttt{NFT} gibi dijital varlıkların güvenli sahipliğini sağlar.
+    \item \textbf{Hızlı İşlemler}: Ekosistem içinde düşük maliyetli, anında ödemeler.
+    \item \textbf{Merkeziyetsiz Yönetişim}: Proje kararları için \texttt{DAO}’da oy kullanma.
+    \item \textbf{Teşvik Yapısı}: Kaliteye dayalı ödüller, spam faaliyetlerine değil.
+\end{itemize}
+\begin{quote}
+Katıl ve dijital genin şekillensin!
+\end{quote}
+Örneğin, bir kullanıcı geri bildirim vererek 0.25 GENY kazanabilir veya bir sanatçı \texttt{NFT} satarak 10 GENY ödül alabilir.
+
+\subsection*{GENY’nin Hedef Kitlesi}
+GENY, sadece geliştiriciler veya yatırımcılar için değil, tüm pozitif düşünenler içindir:
+\begin{itemize}
+    \item \textbf{Genel Kullanıcılar}: Genyleap uygulamalarına erişim ve geri bildirim ödülleri.
+    \item \textbf{Geliştiriciler}: Cell Motoru ile yenilikçi yazılım geliştirme.
+    \item \textbf{Sanatçılar}: Dijital varlık oluşturma ve satma.
+    \item \textbf{Startup’lar}: Fikirleri Genyleap desteğiyle ürünlere dönüştürme.
+\end{itemize}
+Genyleap’te her fikir veya katkı değerlidir ve GENY sizi ekosisteme bağlar.
+\newpage
+
+\section*{GENY Tokenomiği}
+256 milyon birim toplam arzıyla GENY, likidite, büyüme ve sürdürülebilirlik için tasarlanmıştır. Token dağıtımı katılımı teşvik eder.
+
+\begin{table}[h]
+\centering
+\caption{GENY Token Dağıtımı (Bölüm 1)}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{Vesting} & \textbf{TGE (Mln)} & \textbf{\%} & \textbf{Token (Mln)} & \textbf{Kategori} & \textbf{№} \\
+\hline
+48 ay, 6 ay kilitleme & 0 & 12.5 & 32 & Ekip & 1 \\
+36 ay, 6 ay kilitleme & 0 & 6.3 & 16 & Yatırımcılar & 2 \\
+24 ay için 62 mln & 2 & 25.0 & 64 & Ekosistem & 3 \\
+Plana göre & 2 & 12.5 & 32 & Airdrop & 4 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{GENY Token Dağıtımı (Bölüm 2)}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{Vesting} & \textbf{TGE (Mln)} & \textbf{\%} & \textbf{Token (Mln)} & \textbf{Kategori} & \textbf{№} \\
+\hline
+Vesting yok & 32 & 12.5 & 32 & Likidite & 5 \\
+24 ay için 28 mln & 4 & 12.5 & 32 & Hazine ve DAO & 6 \\
+24 ay için 28 mln & 4 & 12.5 & 32 & GenyLab & 7 \\
+24 ay, 3 ay kilitleme & 0 & 6.3 & 16 & Büyüme Fonu & 8 \\
+\hline
+-- & 44 & 100.0 & 256 & Toplam & -- \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Kategori Açıklamaları:}
+\begin{enumerate}
+    \item \textbf{Ekip}: Proje yönetimi ve geliştirme için.
+    \item \textbf{Yatırımcılar}: Stratejik yatırımcılar için finansal destek.
+    \item \textbf{Ekosistem}: Servis katkılarına ödül.
+    \item \textbf{Airdrop}: Yeni kullanıcılar için token dağıtımı.
+    \item \textbf{Likidite}: Borsalarda likidite sağlamak.
+    \item \textbf{Hazine ve DAO}: Merkeziyetsiz karar alma ve gelişim.
+    \item \textbf{GenyLab}: Yenilikçi projeler ve araştırmalar.
+    \item \textbf{Büyüme Fonu}: Yeni projeler ve genişleme.
+\end{enumerate}
+
+\subsection*{Ekonomik Detaylar}
+\begin{itemize}
+    \item \textbf{Toplam Arz}: 256 milyon GENY token.
+    \item \textbf{İlk Dağıtım (\texttt{TGE})}: 44 milyon token (\%17.2).
+    \item \textbf{Token Geri Alımı}: Proje kârının \%15’i \texttt{buybackPool} için.
+    \item \textbf{Token Yakımı}: Krizlerde yıllık \%2’ye kadar (ör. hack veya düşük fiyat).
+\end{itemize}
+\newpage
+
+\section*{GENY Birimleri ve Alt Birimleri}
+Genyleap’te gerçek değerin küçük birimlerde olduğuna inanıyoruz, milyarlarca etkisiz token’da değil. Ekosistemimiz \texttt{SI} standartları ve ikili sistem (2’nin kuvvetleri) üzerine kurulu, tüm düzeylerde hassasiyet ve şeffaflık sağlar. Bu yapı, özellikle ödül sistemlerinde ve mikro işlemlerde basit ve benzersiz bir deneyim sunar; her etkileşim, bir gen gibi değer ve yaratım taşır.
+
+\begin{quote}
+Her etkileşim bir gen! GENY eşsiz bir yaratım hissi sunar.
+\end{quote}
+GENY ana değer birimidir, kibi (\texttt{Ki}) ve mebi (\texttt{Mi}) gibi ikili öneklerle hassasiyet sağlar.
+
+\subsection*{GENY Birim Tablosu}
+\begin{table}[h]
+\centering
+\caption{GENY Alt Birimleri}
+\small
+\begin{tabular}{l c c r}
+\hline
+\textbf{Önek} & \textbf{Sembol} & \textbf{GENY Miktarı} & \textbf{\texttt{Alt Birim} Miktarı} \\
+\hline
+Mebi (\texttt{MiGENY}) & \texttt{MiGENY} & 1,048,576 & 268,435,456 \\
+Kibi (\texttt{KiGENY}) & \texttt{KiGENY} & 1,024 & 262,144 \\
+-- & \texttt{GENY} & 1 & 256 \\
+Milli (\texttt{mGENY}) & \texttt{mGENY} & 0.001 & 0.000256 \\
+Mikro (\texttt{\textmu GENY}) & \texttt{\textmu GENY} & 0.000001 & 0.000000256 \\
+Nano (\texttt{nGENY}) & \texttt{nGENY} & 0.000000001 & 0.000000000256 \\
+Piko (\texttt{pGENY}) & \texttt{pGENY} & 0.000000000001 & 0.000000000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{İkili Ölçeklendirme}
+Hassasiyet için ikili dönüşümler (ör. 1,000 yerine 1,024) kullanırız. Örneğin, 1 \texttt{KiGENY} = 1,024 GENY. Bu standart, mikro işlemlerde (ör. \texttt{IoT} veya veri analitiği) yuvarlama hatalarını önler.
+
+\subsection*{GENY ve GEN Kullanımları}
+Milyar token yerine mili, mikro ve nano birimler küçük etkileşimler, kibi ve mebi ise büyük projeler için kullanılır. Bu yaklaşım Genyleap ekosistemini sadeleştirir, özellikle bahşiş sistemlerinde keyifli bir deneyim sunar.
+\begin{itemize}
+    \item \textbf{Mikro İşlemler}: \texttt{IoT} sensörleri 0.000000001 GENY ile veri gönderir.
+    \item \textbf{Bahşişler}: Yaratıcı bir paylaşım için 0.1 GENY.
+    \item \textbf{Abonelikler}: 10 GENY ile premium abonelik.
+    \item \textbf{Büyük Katkılar}: \texttt{DAO} ile 2,000,000 GENY topluluk projelerine.
+\end{itemize}
+
+\textbf{Örnekler:}
+\begin{table}[h]
+\centering
+\caption{GENY ve \texttt{GEN} Kullanım Örnekleri}
+\small
+\begin{tabular}{l c r}
+\hline
+\textbf{Senaryo} & \textbf{GENY Eşdeğeri} & \textbf{\texttt{GEN} Miktarı} \\
+\hline
+DAO Hibe & 2,000,000 & 512,000,000 \\
+Likidite & 500,000 & 128,000,000 \\
+Premium Abonelik & 10 & 2,560 \\
+Özellik Açma & 1 & 256 \\
+Büyük Bahşiş & 0.5 & 128 \\
+Küçük Bahşiş & 0.1 & 25.6 \\
+Mikro Hizmet & 0.01 & 2.56 \\
+Veri Analitiği & 0.0001 & 0.0256 \\
+\texttt{IoT} Sinyal & 0.000000001 & 0.000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Etkileyici Kullanımlar}
+\begin{itemize}
+    \item \textbf{\texttt{IoT} Mikro İşlemler}: Sensörler 0.000000001 GENY ile veri gönderir.
+    \item \textbf{Bahşişler}: İlham verici bir paylaşım için 0.1 GENY.
+    \item \textbf{Yönetişim}: \texttt{DAO}’da 1,000 GENY ile oy kullanma.
+    \item \textbf{Mikro Ekonomi}: İşletmeler 0.01 GENY ile hizmet sunar.
+\end{itemize}
+
+\chapter{Genyleap Hedef Kitlesi}
+Genyleap şu gruplar için değer yaratır:
+\begin{itemize}
+    \item \textbf{Kullanıcılar}: Günlük görevler için araçlar.
+    \item \textbf{Geliştiriciler}: Yenilikçi yazılım platformu.
+    \item \textbf{Sanatçılar}: Dijital varlık oluşturma ve satma.
+    \item \textbf{Startup’lar}: Fikirleri ürüne dönüştürme desteği.
+    \item \textbf{Organizasyonlar}: İşletmelere özel çözümler.
+\end{itemize}
+
+\chapter{Genyleap Vizyonu}
+Genyleap, yüksek kaliteli, basit ve sürdürülebilir dijital yazılım geleceği yaratır. Açık kaynak, blok zinciri ve \texttt{DAO} ile teknolojiye evrensel erişim sağlarız.
+
+\chapter{İşbirliği Daveti}
+Genyleap, geliştiricileri, sanatçıları, startup’ları ve yatırımcıları bu yenilikçi yolculuğa davet eder. Detaylar için genyleap.com’u ziyaret edin veya sosyal medyadan bize ulaşın.
+
+\section*{GENY Akıllı Sözleşme Adresleri}
+GENY akıllı sözleşmeleri Ethereum blok zincirinde \LRE{UUPS} mimarisiyle çalışır ve işlemleri, token dağıtımını ve Genyleap’in merkeziyetsiz yönetimini sağlar. \texttt{Multi-Sig} sözleşmesi üç imzalı yapısıyla güvenlik ve şeffaflık sunar. Detaylar için adresleri \texttt{basescan.org}’da kontrol edin:
+
+\begin{table}[h]
+\centering
+\caption*{Ana GENY Sözleşmeleri}
+\small
+\begin{tabular}{c r}
+\hline
+\textbf{Sözleşme Adı} & \textbf{Sözleşme Adresi} \\
+\hline
+\texttt{GenyToken} & {\texttt{0x75d7a0e842a73c07847ee433c93d443dfea61038}} \\
+\texttt{GenyAllocation (Proxy)} & {\texttt{0xFeEfB5200Bfd8A836964134b9B0Fe68d0e4F9dea}} \\
+\texttt{Çoklu İmza} & {\texttt{0x41EBc91077f37886CAc6aDEa67125A47c4d72930}} \\
+\texttt{Oluşturucu} & {\texttt{0x7960F1B90b257BfF29D5164D16bca4C8030b7f6D}} \\
+\hline
+\end{tabular}
+\end{table}
+
+\section*{Referanslar ve Adresler}
+
+\begin{enumerate}
+    \item \textbf{Basescan}: \texttt{https://basescan.org/token/0x75d7a0e842a73c07847ee433c93d443dfea61038}
+    \item \textbf{Kaynak Adresi}: \texttt{https://github.com/genyleap/geny-token}
+\end{enumerate}
+
+\end{document}

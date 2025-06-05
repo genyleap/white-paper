@@ -1,0 +1,296 @@
+\documentclass[a4paper,12pt,openany]{book}
+
+% Essential packages for Russian document
+\usepackage{polyglossia}
+\setmainlanguage{russian}
+\setotherlanguage{english}
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\newfontfamily\ipafont{Charis}
+\usepackage{geometry}
+\geometry{margin=2.0cm}
+\usepackage{enumitem}
+\usepackage{setspace}
+
+% Spacing settings
+\onehalfspacing
+\setlength{\parskip}{0.2em}
+
+% Remove blank pages before chapters
+\let\cleardoublepage\clearpage
+
+\begin{document}
+
+% Титульная страница
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1.5cm}
+        {\Huge \textbf{Белая книга Genyleap}} \\
+        \vspace{0.5cm}
+        {\Large Версия 1.0} \\
+        \vspace{0.5cm}
+        {\large Дата публикации: июнь 2025 года} \\
+        \vspace{1.5cm}
+        {\large Высококачественное ПО для лучшей жизни} \\
+    \end{center}
+    \vfill
+\end{titlepage}
+
+\chapter{Введение}
+В Genyleap мы представляем будущее, в котором высококачественные, мощные и эффективные цифровые технологии служат всем. Мы разрабатываем простое и надежное ПО, улучшающее жизнь, бизнес и инновации. Благодаря открытым технологиям и блокчейну мы делаем передовые инструменты доступными, повышаем прозрачность и уважаем экологию с помощью устойчивого дизайна. Genyleap предлагает технологии, которые не только эффективны, но и вдохновляют и доступны каждому.
+
+\chapter{Двигатель Cell: ядро технологий Genyleap}
+
+Двигатель Cell (\texttt{Cell}) — это передовая система ПО с открытым кодом, которая составляет основу Genyleap. Создан по стандарту \texttt{C++23} ISO/IEC 14882:2024, он предоставляет современную платформу для разработки высококачественных, безопасных и производительных приложений.
+
+Cell разработан для программистов, стремящихся к полному контролю, позволяя создавать что угодно — от настольных и мобильных приложений до веб-сервисов, сайтов и устройств \texttt{IoT} — без сложных или дорогих инструментов. Обеспечивает экономичную разработку без потери производительности.
+
+\textbf{Основные характеристики:}
+\begin{itemize}
+    \item \textbf{Кроссплатформенность:} Cell работает нативно на ПК, мобильных, встроенных системах и \texttt{WebAssembly}, обеспечивая переносимость.
+    \item \textbf{Модульность:} Компонентная структура позволяет настраивать и расширять функционал, оставаясь легковесной.
+    \item \textbf{Энергоэффективность:} Cell минимизирует энергопотребление, поддерживая экологичное будущее.
+    \item \textbf{Производительность и безопасность:} Оптимизирован для скорости и надежности, идеален для современных приложений.
+    \item \textbf{Глобализация:} Поддержка многоязычности и интернационализации для глобального использования.
+\end{itemize}
+
+\footnote{Двигатель Cell поддерживает проекты (многоцелевой), работает на платформах от ПК до \texttt{IoT} (кроссплатформенный) и минимизирует энергопотребление (зеленые вычисления), сохраняя производительность.}
+
+\chapter{Видение и стратегии}
+
+Genyleap переопределяет цифровые технологии, чтобы расширить возможности разработчиков, ускорить инновации и способствовать устойчивости.
+
+\begin{itemize}
+    \item \textbf{Качественное ПО для всех:} Инструменты Genyleap доступны и эффективны для пользователей и разработчиков.
+    \item \textbf{Поддержка бизнеса:} Genyleap помогает стартапам и компаниям превращать идеи в масштабируемые решения.
+    \item \textbf{Экологичность:} Genyleap разрабатывает энергоэффективное ПО, сочетая прогресс с экологией.
+\end{itemize}
+
+\footnote{Блокчейн обеспечивает проверяемые, защищенные записи, укрепляя доверие и целостность системы.}
+
+\chapter{Криптовалюта GENY (Токен)}
+\begin{quote}
+Мы создали не криптовалюту... мы создали ген! Это больше, чем токен; это ДНК взаимодействия в \texttt{Web3}.
+\end{quote}
+Токен GENY, официально \texttt{Genyleap}, — это цифровая валюта Genyleap, превращающая экосистему в децентрализованную сеть. GENY — это «цифровой ген», позволяющий создавать идентичность и влияние в \texttt{Web3}.
+\begin{quote}
+В каждом бите — ген... в каждом гене — мир!
+\end{quote}
+
+\section*{Официальное произношение}
+На английском \textbf{GENY} произносится \textit{``Jenny''} ({\ipafont /ˈdʒe.ni/}). Название происходит от слов «ген» и «почему», задавая вопрос о творчестве в цифровом мире.
+
+\section*{Технические характеристики GENY}
+\begin{itemize}
+    \item \textbf{Название токена}: \texttt{Genyleap}
+    \item \textbf{Символ}: \texttt{GENY}
+    \item \textbf{Стандарт}: \texttt{ERC-20}
+    \item \textbf{Общий объем}: 256,000,000 единиц
+    \item \textbf{Сжигаемый}: Да (с ограничениями \texttt{DAO})
+    \item \textbf{Выкуп}: Да
+    \item \textbf{Управление}: Через \texttt{Governor} в \texttt{DAO}
+\end{itemize}
+\vspace{-0.5em}
+\begin{quote}
+Раскрой свой ген! Будущее за теми, кто формирует свой цифровой ген через взаимодействие.
+\end{quote}
+\newpage
+
+\section*{Особенности и аудитория GENY}
+\subsection*{Особенности}
+GENY расширяет возможности пользователей:
+\begin{itemize}
+    \item \textbf{Доступ к сервисам}: GENY — ключ к продуктам Genyleap, например, приложениям на Cell.
+    \item \textbf{Награды за творчество}: GENY за качественный вклад (отзывы, контент, ПО).
+    \item \textbf{Цифровая собственность}: GENY обеспечивает владение активами (\texttt{NFT}).
+    \item \textbf{Быстрые транзакции}: Мгновенные платежи в экосистеме.
+    \item \textbf{Управление}: Голосование в \texttt{DAO}.
+    \item \textbf{Стимулы}: Награды за качество, а не спам.
+\end{itemize}
+\begin{quote}
+Участвуй, и твой цифровой ген обретет форму!
+\end{quote}
+Например, пользователь может заработать 0.25 GENY за отзыв, а художник — 10 GENY за продажу \texttt{NFT}.
+
+\subsection*{Аудитория GENY}
+GENY для всех позитивно мыслящих:
+\begin{itemize}
+    \item \textbf{Пользователи}: Доступ к приложениям и награды за отзывы.
+    \item \textbf{Разработчики}: Создание ПО с Cell.
+    \item \textbf{Художники}: Создание и продажа цифровых активов.
+    \item \textbf{Стартапы}: Превращение идей в продукты с Genyleap.
+\end{itemize}
+Каждый вклад в Genyleap ценен, и GENY связывает вас с экосистемой.
+\newpage
+
+\section*{Токеномика GENY}
+GENY с объемом 256 млн единиц разработан для ликвидности, роста и устойчивости. Распределение стимулирует участие.
+
+\begin{table}[h]
+\centering
+\caption{Распределение GENY (Часть 1)}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{Vesting} & \textbf{TGE (Млн)} & \textbf{\%} & \textbf{Токены (Млн)} & \textbf{Категория} & \textbf{№} \\
+\hline
+48 мес., 6 мес. клифф & 0 & 12.5 & 32 & Команда & 1 \\
+36 мес., 6 мес. клифф & 0 & 6.3 & 16 & Инвесторы & 2 \\
+24 мес. для 62 млн & 2 & 25.0 & 64 & Экосистема & 3 \\
+По плану & 2 & 12.5 & 32 & Эйрдроп & 4 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Распределение GENY (Часть 2)}
+\small
+\begin{tabular}{r c c c c c}
+\hline
+\textbf{Vesting} & \textbf{TGE (Млн)} & \textbf{\%} & \textbf{Токены (Млн)} & \textbf{Категория} & \textbf{№} \\
+\hline
+Без vesting & 32 & 12.5 & 32 & Ликвидность & 5 \\
+24 мес. для 28 млн & 4 & 12.5 & 32 & Казна и DAO & 6 \\
+24 мес. для 28 млн & 4 & 12.5 & 32 & GenyLab & 7 \\
+24 мес., 3 мес. клифф & 0 & 6.3 & 16 & Фонд роста & 8 \\
+\hline
+-- & 44 & 100.0 & 256 & Итого & -- \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Описание категорий:}
+\begin{enumerate}
+    \item \textbf{Команда}: Для управления и разработки.
+    \item \textbf{Инвесторы}: Для финансовой поддержки.
+    \item \textbf{Экосистема}: Награды пользователям и разработчикам.
+    \item \textbf{Эйрдроп}: Привлечение новых пользователей.
+    \item \textbf{Ликвидность}: Для бирж и торговли.
+    \item \textbf{Казна и DAO}: Для управления и развития.
+    \item \textbf{GenyLab}: Для инноваций и исследований.
+    \item \textbf{Фонд роста}: Для новых проектов.
+\end{enumerate}
+
+\subsection*{Экономические детали}
+\begin{itemize}
+    \item \textbf{Общий объем}: 256 млн токенов GENY.
+    \item \textbf{Первоначальный выпуск (\texttt{TGE})}: 44 млн (17.2\%).
+    \item \textbf{Выкуп}: 15\% прибыли на выкуп в \texttt{buybackPool}.
+    \item \textbf{Сжигание}: До 2\% в кризисах (взломы, низкая цена).
+\end{itemize}
+\newpage
+
+\section*{Единицы и субъединицы GENY}
+В Genyleap мы верим, что ценность кроется в малых единицах, а не в миллиардах токенов. Экосистема построена на стандартах \texttt{SI} и бинарной системе (степени 2), обеспечивая точность и прозрачность. Эта структура обеспечивает простой и уникальный опыт, где каждое взаимодействие, как ген, несет ценность.
+
+\begin{quote}
+Каждое взаимодействие — уникальный ген! GENY приносит чувство созидания.
+\end{quote}
+GENY — основная единица, с бинарными префиксами kibi (\texttt{Ki}) и mebi (\texttt{Mi}) для точности на всех уровнях.
+
+\subsection*{Таблица единиц GENY}
+\begin{table}[h]
+\centering
+\caption{Субъединицы GENY}
+\small
+\begin{tabular}{l c c r}
+\hline
+\textbf{Префикс} & \textbf{Символ} & \textbf{В GENY} & \textbf{В \texttt{субъединице}} \\
+\hline
+Mebi (\texttt{MiGENY}) & \texttt{MiGENY} & 1,048,576 & 268,435,456 \\
+Kibi (\texttt{KiGENY}) & \texttt{KiGENY} & 1,024 & 262,144 \\
+-- & \texttt{GENY} & 1 & 256 \\
+Milli (\texttt{mGENY}) & \texttt{mGENY} & 0.001 & 0.000256 \\
+Micro (\texttt{\textmu GENY}) & \texttt{\textmu GENY} & 0.000001 & 0.000000256 \\
+Nano (\texttt{nGENY}) & \texttt{nGENY} & 0.000000001 & 0.000000000256 \\
+Pico (\texttt{pGENY}) & \texttt{pGENY} & 0.000000000001 & 0.000000000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Масштабирование по степеням 2}
+Мы используем бинарные преобразования (например, 1,024 вместо 1,000) для точности. Например, 1 \texttt{KiGENY} = 1,024 GENY. Этот стандарт предотвращает ошибки округления в микротранзакциях (например, \texttt{IoT} или аналитика).
+
+\subsection*{Применение GENY и GEN}
+Мы используем милли, микро и нано для мелких взаимодействий и kibi, mebi для крупных проектов. Это упрощает экосистему Genyleap, особенно в чаевых.
+\begin{itemize}
+    \item \textbf{Микротранзакции}: Датчики \texttt{IoT} передают данные с 0.000000001 GENY.
+    \item \textbf{Чаевые}: 0.1 GENY для поддержки поста.
+    \item \textbf{Подписки}: Премиум-подписка за 10 GENY.
+    \item \textbf{Взносы}: 2,000,000 GENY через \texttt{DAO}.
+\end{itemize}
+
+\textbf{Примеры:}
+\begin{table}[h]
+\centering
+\caption{Примеры GENY и \texttt{GEN}}
+\small
+\begin{tabular}{l c r}
+\hline
+\textbf{Сценарий} & \textbf{В GENY} & \textbf{В \texttt{GEN}} \\
+\hline
+Грант DAO & 2,000,000 & 512,000,000 \\
+Ликвидность & 500,000 & 128,000,000 \\
+Премиум-подписка & 10 & 2,560 \\
+Разблокировка & 1 & 256 \\
+Большой чаевой & 0.5 & 128 \\
+Малый чаевой & 0.1 & 25.6 \\
+Микросервис & 0.01 & 2.56 \\
+Аналитика & 0.0001 & 0.0256 \\
+\texttt{IoT} сигнал & 0.000000001 & 0.000000256 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Привлекательные применения}
+\begin{itemize}
+    \item \textbf{\texttt{IoT} микротранзакции}: Датчики передают данные с 0.000000001 GENY.
+    \item \textbf{Чаевые}: 0.1 GENY для поддержки контента.
+    \item \textbf{Управление}: Голосование в \texttt{DAO} с 1,000 GENY.
+    \item \textbf{Микроэкономика}: Услуги за 0.01 GENY.
+\end{itemize}
+
+\chapter{Аудитория Genyleap}
+Genyleap создает ценность для:
+\begin{itemize}
+    \item \textbf{Пользователи}: Доступ к инструментам для задач.
+    \item \textbf{Разработчики}: Платформа для создания ПО.
+    \item \textbf{Художники}: Создание и продажа цифровых активов.
+    \item \textbf{Стартапы}: Поддержка идей.
+    \item \textbf{Организации}: Решения для бизнеса.
+\end{itemize}
+
+\chapter{Видение Genyleap}
+Genyleap создает будущее, где ПО высококачественное, простое и устойчивое. С помощью открытого кода, блокчейна и \texttt{DAO} мы даем доступ к технологиям, улучшающим жизнь.
+
+\chapter{Призыв к сотрудничеству}
+Genyleap приглашает разработчиков, художников, стартапы и инвесторов к сотрудничеству. Подробности на genyleap.com или в соцсетях.
+
+\section*{Адреса смарт-контрактов GENY}
+Смарт-контракты GENY на Ethereum используют \LRE{UUPS} для управления транзакциями и децентрализованным управлением. Контракт \texttt{Multi-Sig} с тремя подписями обеспечивает безопасность и прозрачность. Адреса на \texttt{basescan.org}:
+
+\begin{table}[h]
+\centering
+\caption*{Основные контракты GENY}
+\small
+\begin{tabular}{c r}
+\hline
+\textbf{Контракт} & \textbf{Адрес} \\
+\hline
+\texttt{GenyToken} & {\texttt{0x75d7a0e842a73c07847ee433c93d443dfea61038}} \\
+\texttt{GenyAllocation (Proxy)} & {\texttt{0xFeEfB5200Bfd8A836964134b9B0Fe68d0e4F9dea}} \\
+\texttt{Multi-Sin} & {\texttt{0x41EBc91077f37886CAc6aDEa67125A47c4d72930}} \\
+\texttt{Creator} & {\texttt{0x7960F1B90b257BfF29D5164D16bca4C8030b7f6D}} \\
+\hline
+\end{tabular}
+\end{table}
+
+\section*{Ссылки}
+
+\begin{enumerate}
+    \item \textbf{Basescan}: \texttt{https://basescan.org/token/0x75d7a0e842a73c07847ee433c93d443dfea61038}
+    \item \textbf{Исходный код}: \texttt{https://github.com/genyleap/geny-token}
+\end{enumerate}
+
+\end{document}
