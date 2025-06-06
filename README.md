@@ -2,7 +2,7 @@
 
 **Genyleap White Paper 1.0**
 
-[English](papers/genyleap_whitepaper.pdf) | [Farsi - فارسی](papers/genyleap_whitepaper-fa.pdf) | [Chinese - 中文](papers/genyleap_whitepaper-zh.pdf) | [Japanese - 日本語](papers/genyleap_whitepaper-jp.pdf) | [Turkish - Türkçe](papers/genyleap_whitepaper-tr.pdf) | [Russian - Русский](papers/genyleap_whitepaper-ru.pdf) | [French - Français](papers/genyleap_whitepaper-fr.pdf) | [Spanish - Español](papers/genyleap_whitepaper-es.pdf) | [Korean - 한국어](papers/genyleap_whitepaper-ko.pdf) | [Azerbaijani - Azərbaycanca](papers/genyleap_whitepaper-az.pdf) | [Hindi - हिंदी](papers/genyleap_whitepaper-hi.pdf) | [Portuguese - Português](papers/genyleap_whitepaper-pt.pdf) | [Arabic - العربية](papers/genyleap_whitepaper-ar.pdf) | [German - Deutsch](papers/genyleap_whitepaper-de.pdf)
+[English](papers/genyleap_whitepaper.pdf) | [Persian - پارسی](papers/genyleap_whitepaper-fa.pdf) | [Chinese - 中文](papers/genyleap_whitepaper-zh.pdf) | [Japanese - 日本語](papers/genyleap_whitepaper-jp.pdf) | [Turkish - Türkçe](papers/genyleap_whitepaper-tr.pdf) | [Russian - Русский](papers/genyleap_whitepaper-ru.pdf) | [French - Français](papers/genyleap_whitepaper-fr.pdf) | [Spanish - Español](papers/genyleap_whitepaper-es.pdf) | [Korean - 한국어](papers/genyleap_whitepaper-ko.pdf) | [Azerbaijani - Azərbaycanca](papers/genyleap_whitepaper-az.pdf) | [Hindi - हिंदी](papers/genyleap_whitepaper-hi.pdf) | [Portuguese - Português](papers/genyleap_whitepaper-pt.pdf) | [Arabic - العربية](papers/genyleap_whitepaper-ar.pdf) | [German - Deutsch](papers/genyleap_whitepaper-de.pdf)
 
 ---
 
